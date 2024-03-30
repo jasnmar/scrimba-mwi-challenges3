@@ -1,3 +1,54 @@
 body {
     margin: 0;
+    font-family: Inter;
+    color: #5A537B
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #6943FF ;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.5em;
+    color:white;
+    margin: 20px auto;
+}
+
+input {
+    width: 80px;
+    height: 80px;
+    background-color: #6943FF;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 20px auto;
+    color:white;
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+}
+button {
+    width: 80px;
+    margin: 0px auto 20px auto;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.card {
+    background-color: white;
+    margin: 10px 20px;
+}
+p {
+    height: 20px;
+    font-size: .8em;
 }
