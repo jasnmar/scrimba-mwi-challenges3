@@ -1,9 +1,5 @@
-// Challenge:
-// Round the price in the button down to two decimal places.
-// Don't know which method to use? Google it!
-
-const totalPrice = 420.69235632455
-const btn = document.getElementById("purchase-btn")
-
-btn.textContent = `Buy €${ parseFloat(totalPrice).toFixed(2)}`
-
+/*
+1 meter = 3.281 feet
+1 liter = 0.264 gallon
+1 kilogram = 2.204 pound
+*/
