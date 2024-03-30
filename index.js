@@ -1,17 +1,8 @@
-// Create a function that renders the three team images
-// Use a for loop, template strings (``), plus equals (+=)
-// .innerHTML to solve the challenge.
+// Challenge:
+// Round the price in the button down to two decimal places.
+// Don't know which method to use? Google it!
 
-const imgs = [
-    "images/hip1.jpg",
-    "images/hip2.jpg",
-    "images/hip3.jpg"
-]
+const totalPrice = 420.69235632455
+const btn = document.getElementById("purchase-btn")
+btn.textContent = `Buy €${ parseFloat(totalPrice).toFixed(2)}`
 
-const renderDiv = document.getElementById("container")
-
-let newHTML = "";
-for (let i = 0; i < imgs.length; i++) {
-    newHTML += `<img class="team-img" src="${imgs[i]}">`
-}
-renderDiv.innerHTML = newHTML;
