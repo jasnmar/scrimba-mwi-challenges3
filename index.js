@@ -4,3 +4,9 @@ let myCourses = ["Learn CSS Animations", "UI Design Fundamentals", "Intro to Cle
 // and logs all the items of the array to the console.
 // Call the function while passing in myCourses as an argument
 
+function printArray(array) {
+    for (let i=0; i<array.length; i++){
+        console.log(array[i]);
+    }
+}
+printArray(myCourses);
