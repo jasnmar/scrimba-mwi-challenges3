@@ -9,5 +9,16 @@
 
 // Use both a for loop and a template string to solve the challenge
 function generateSentence(desc, arr) {
-    
+    let arrStr = "";
+    for (let i=0; i<arr.length; i++) {
+        if (i===0) {
+            arrStr = arr[i];
+        } else {
+            arrStr += ", "+ arr[i]
+        }
+    }
+    const output = `The ${arr.length} ${desc} are ${arrStr}`
+    return output;
 }
+
+generateSentence("largest countries", ["China", "India", "USA"])
